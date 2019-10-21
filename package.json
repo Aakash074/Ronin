@@ -1,0 +1,33 @@
+{
+	"name": "aeroflowracing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"gh-pages": "^2.1.1",
+		"gulp": "^4.0.2",
+		"http-server": "^0.11.1",
+		"npm": "^6.12.0"
+	},
+	"devDependencies": {
+		"del": "*",
+		"gulp-autoprefixer": "^5.0.0",
+		"gulp-changed": "*",
+		"gulp-clean-css": "*",
+		"gulp-connect": "^5.7.0",
+		"gulp-htmlmin": "^4.0.0",
+		"gulp-imagemin": "^6.1.1",
+		"gulp-sass": "^4.0.1",
+		"gulp-sourcemaps": "*",
+		"gulp-uglify": "*",
+		"gulp-watch": "^5.0.0",
+		"ngrok": "^3.0.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "./node_modules/.bin/http-server -a localhost -p 8000 -c-1",
+        "deploy": "gh-pages -d dist"
+	},
+	"author": "",
+	"license": "ISC"
+}
